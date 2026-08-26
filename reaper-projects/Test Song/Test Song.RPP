@@ -1,0 +1,33 @@
+<REAPER_PROJECT 0.1 "7.0" 0
+  TEMPO 147.000000 4 4
+  <TRACK
+    NAME "ORIGINAL"
+    <ITEM
+      POSITION 0
+      LENGTH 391.337528
+      <SOURCE WAVE
+        FILE "C:/Users/richr/Downloads/dirtyDiaperz-fadr-fixes/dirtyDiaperz-fadr-fixes/reaper-projects/Test Song/ORIGINAL.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "CLICK"
+    <ITEM
+      POSITION 0
+      LENGTH 391.337528
+      <SOURCE WAVE
+        FILE "C:/Users/richr/Downloads/dirtyDiaperz-fadr-fixes/dirtyDiaperz-fadr-fixes/reaper-projects/Test Song/CLICK.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "CUES"
+    <ITEM
+      POSITION 0
+      LENGTH 391.337528
+      <SOURCE WAVE
+        FILE "C:/Users/richr/Downloads/dirtyDiaperz-fadr-fixes/dirtyDiaperz-fadr-fixes/reaper-projects/Test Song/CUES.wav"
+      >
+    >
+  >
+>

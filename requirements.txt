@@ -1,0 +1,6 @@
+Flask>=3.0,<4
+numpy>=1.26,<3
+openpyxl>=3.1,<4
+requests>=2.32,<3
+soundfile>=0.12,<1
+reapy-boost>=0.10,<1
