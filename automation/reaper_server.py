@@ -1,8 +1,11 @@
 from __future__ import annotations
 import os,subprocess,sys
 from pathlib import Path
-from flask import Flask,jsonify,request
-app=Flask(__name__); ROOT=Path(__file__).resolve().parents[1]; SCRIPT=ROOT/'scripts'/'dirty_diaperz_fadr.py'
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app); ROOT=Path(__file__).resolve().parents[1]; SCRIPT=ROOT/'scripts'/'dirty_diaperz_fadr.py'
 def body(): return request.get_json(silent=True) or {}
 def bad(message,status=400): return jsonify(success=False,error=message),status
 @app.errorhandler(Exception)
